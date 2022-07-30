@@ -36,7 +36,7 @@ a:hover {
 .container {
   max-width: 1245px;
   margin: 0 auto;
-  padding: 75px 0px;
+  padding: 50px 0px;
 }
 
 .wrapper {
@@ -373,4 +373,56 @@ a:hover {
   .footer__item {
     margin-bottom: 12px;
   }
+}
+.navbar__item-active {
+  border-bottom: 2px solid #60897F;
+}
+
+.bio-first__heading h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bio-first__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bio-first__text {
+  max-width: 25%;
+}
+
+.bio-first__text h2 {
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.bio-second__heading h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bio-second__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bio-second__skill-box {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: solid 2px #DCC1A3;
+  border-radius: 20px;
+}
+
+.bio-second__skill-box h3 {
+  margin-bottom: 10px;
 }
