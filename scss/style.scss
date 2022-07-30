@@ -372,10 +372,20 @@ a:hover{
 @media only screen and (max-width: 650px) {
 
 
-          //   BIO
+    //   BIO
 
+    .bio-first__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+    .bio-first__text {
+        max-width: 75%;
+        margin-bottom: 25px;
+    }
 
-        
 
 
 }
