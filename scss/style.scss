@@ -336,6 +336,7 @@ a:hover{
 .container {
 }
 .bio-second {
+    position: relative;
 }
 .bio-second__heading {
 }
@@ -387,5 +388,29 @@ a:hover{
     }
 
 
+    .bio-second__skill-box {
+        margin: 0 auto;
+    }
 
+
+
+}
+
+.owl-stage-outer{
+
+}
+.owl-nav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.owl-prev span{
+    font-size: 50px;
+}
+.owl-next span{
+    font-size: 50px;
 }
