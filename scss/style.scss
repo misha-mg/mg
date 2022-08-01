@@ -493,7 +493,7 @@ a:hover{
         order: 1;
     }
     .pf-item__img img{
-        height: 300px;
+        max-height: 300px;
         border: solid 5px $beige;
         border-radius: 15px;
         margin: 15px;
@@ -509,4 +509,18 @@ a:hover{
         margin-bottom: 15px;
     }
 
+}
+@media only screen and (max-width: 470px) {
+    .pf-item__img img{
+        max-height: 250px;
+        border: solid 5px $beige;
+        border-radius: 15px;
+        margin: 15px;
+    }
+
+    // BIO
+
+    .bio-second__skill-box {
+        width: 250px;
+    }
 }
