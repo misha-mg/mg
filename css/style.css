@@ -513,6 +513,13 @@ a:hover {
   border: solid 5px #DCC1A3;
   border-radius: 15px;
   margin: 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pf-item__img img:hover {
+  opacity: 0.9;
+  border: solid 5px #60897F;
 }
 
 .pf-item__img-reverse {
@@ -557,6 +564,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 960px) {
+  .portfolio-first__heading {
+    display: none;
+  }
+
   .portfolio-first__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -578,6 +589,12 @@ a:hover {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
+  }
+
+  .pf-item__img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 
   .pf-item__img img {

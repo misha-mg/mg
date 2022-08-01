@@ -442,6 +442,11 @@ a:hover{
     border: solid 5px $beige;
     border-radius: 15px;
     margin: 30px;
+    transition: all 0.3s;
+}
+.pf-item__img img:hover{
+    opacity: 0.9;
+    border: solid 5px $green2;
 }
 .pf-item__img-reverse{
     order: 1;
@@ -471,6 +476,9 @@ a:hover{
 
 @media only screen and (max-width: 960px) {
 
+    .portfolio-first__heading {
+        display: none;
+    }
     .portfolio-first__item {
         display: flex;
         justify-content: center;
@@ -480,6 +488,9 @@ a:hover{
     }
     .pf-item__img-reverse{
         order: 0;
+    }
+    .pf-item__img{
+        order: 1;
     }
     .pf-item__img img{
         height: 300px;
