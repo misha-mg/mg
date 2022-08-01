@@ -433,12 +433,13 @@ a:hover{
     display: flex;
     justify-content: center;
     border-bottom: 3px dotted $beige;
+    margin: 25px;
 }
 .portfolio-first__item:last-child {
     border-bottom: 0px dotted $beige;
 }
 .pf-item__img img{
-    height: 400px;
+    max-width: 530px;
     border: solid 5px $beige;
     border-radius: 15px;
     margin: 30px;
@@ -493,7 +494,7 @@ a:hover{
         order: 1;
     }
     .pf-item__img img{
-        max-height: 300px;
+        max-width: 400px;
         border: solid 5px $beige;
         border-radius: 15px;
         margin: 15px;
@@ -512,11 +513,15 @@ a:hover{
 }
 @media only screen and (max-width: 470px) {
     .pf-item__img img{
-        max-height: 250px;
+        max-width: 330px;
         border: solid 5px $beige;
         border-radius: 15px;
         margin: 15px;
     }
+    .pf-item__info {
+        max-width: 330px;
+    }
+    
 
     // BIO
 
