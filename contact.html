@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
 </head>
@@ -21,7 +23,7 @@
                         <ul>
                             <li class="navbar__items"><a href="bio.html">BIO</a></li>
                             <li class="navbar__items"><a href="portfolio.html">PORTFOLIO</a></li>
-                            <li class="navbar__items"><a href="contact.html">CONTACT</a></li>
+                            <li class="navbar__items navbar__item-active"><a href="contact.html">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,32 +38,35 @@
 
     <main>
 
-        <div class="hero-block-wrapper wrapper">
+       
+       <div class="contact-first__wrapper wrapper">
             <div class="container">
-                <div class="hero-block">   
-                    <div class="hero-block__photo contact-call">
-                        <img src="img/me.jpg" alt="">
-                    </div>
-                    <div class="hero-block__info">
-                        <h1>Hi</h1>
-                        <h2>A bit about me</h2>
-                        <p>I am a programmer. I am 16 years old and have been coding for over a year now. With this page I will present
-                            myself, show my work and talk about my results. Something like a business card, but online.
-                        </p>
-                        <div class="buttons">
-                            <ul>
-                                <li class="buttons__item"><a href="bio.html">BIO</a></li>
-                                <li class="buttons__item"><a href="portfolio.html">PORTFOLIO</a></li>
-                                <li class="buttons__item"><a href="#">CONTACT</a></li>
-                            </ul>
+                <div class="contact-first">
+                    <div class="contact-first__form">
+                        <div class="contact-first__form-heading">
+                            <h1>Contact me</h1>
+                        </div>
+                        <div class="contact-first__form-body">
+                            <input type="text" name="" id="" placeholder="Name">
+                            <input type="text" name="" id="" placeholder="Email">
+                            <input type="text" name="" id="" placeholder="Number">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="You'r message..."></textarea>
+                            <li class="info-body__item"><a href="#">Send</a></li>
                         </div>
                     </div>
                     
+                    <div class="contact-first__info">
+                        <div class="contact-first__info-heading">
+                            <h1>Find me</h1>
+                        </div>
+                        <div class="contact-first__info-body">
+                            <img src="img/me.jpg" alt="">
+                            <li class="info-body__item"><a href="#">GitHub</a></li>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
+       </div>
         
 
     </main>
@@ -96,19 +101,15 @@
     </footer>
 
 
-        <!-- POPUP -->
-
-
-
 
     <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 
     <script src="js/jquery-3.6.0.min.js"></script>
 
-
     <script src="dist/owl.carousel.min.js"></script>
+
     <script src="js/script.js"></script>
-    
+
 </body>
 </html>
