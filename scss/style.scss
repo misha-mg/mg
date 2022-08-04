@@ -7,6 +7,12 @@ $beige:#DCC1A3;
 $skin:#D8A56B;
 
 
+// $green1:#F2CAA7;
+// $green2:#A6654E;
+// $light:#D9C5C1;
+// $beige:#8C3B61;
+// $skin:#591527;
+
 
 // STYLES
 
@@ -52,7 +58,7 @@ a:hover{
     padding: 15px 30px;
     font-weight: 500;
     font-size: 22px;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 @mixin input-style {
@@ -129,7 +135,7 @@ a:hover{
 .hero-block__photo>img {
     height: 400px;
     border: solid 4px $beige;
-    border-radius: 100%;
+    border-radius: 20px;
     margin-right: 40px;
     transition: all 0.2s;
 }
@@ -173,6 +179,7 @@ a:hover{
 .buttons__item a:hover {
     background-color: $beige;
 }
+
 
 // FOOTER
 
@@ -244,6 +251,10 @@ a:hover{
         padding: 10px 0px;
         
     }
+    .hero-block__info {
+        width: 300px;
+        text-align: center;
+    }
     .hero-block__info h1 {
         margin-left: 0px;
         font-size: 70px;
@@ -267,7 +278,8 @@ a:hover{
     }
     .buttons ul {
         display: flex;
-        justify-content: space-around
+        justify-content: space-around;
+        width: 300px;
     }
     .buttons__item {
         display: flex;
