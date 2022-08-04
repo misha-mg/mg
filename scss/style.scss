@@ -235,6 +235,11 @@ img:hover{
         justify-content: center;
         
     }
+    .buttons ul {
+        margin-left: -5px;
+        display: flex;
+        justify-content: space-around
+    }
   }
 
   @media only screen and (max-width: 650px) {
@@ -285,8 +290,9 @@ img:hover{
     }
     .buttons ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 300px;
+        margin-left: 0px;
     }
     .buttons__item {
         display: flex;
