@@ -44,6 +44,11 @@ a:hover {
   padding: 0px 50px;
 }
 
+img:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .header-menu-wrapper {
   border-bottom: 2px solid #DCC1A3;
 }
@@ -192,6 +197,8 @@ a:hover {
 
 .buttons__item a:hover {
   background-color: #DCC1A3;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer-wrapper {
@@ -438,6 +445,8 @@ a:hover {
 .bio-second__skill-box:hover {
   background-color: #DCC1A3;
   color: #385C19;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .bio-second__skill-box h3 {
@@ -735,6 +744,8 @@ a:hover {
   width: 370px;
   border: solid 4px #DCC1A3;
   border-radius: 15px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .contact-first__info-body ul {
@@ -795,6 +806,8 @@ a:hover {
 
 .info-body__item a:hover {
   background-color: #DCC1A3;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 910px) {

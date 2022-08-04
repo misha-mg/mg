@@ -51,6 +51,12 @@ a:hover{
 	width: 100%;
     padding: 0px 50px;
 }
+img {
+    
+}
+img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
 
 @mixin button {
@@ -178,6 +184,7 @@ a:hover{
 }
 .buttons__item a:hover {
     background-color: $beige;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 
@@ -383,6 +390,7 @@ a:hover{
 .bio-second__skill-box:hover {
     background-color: $beige;
     color: $green1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .bio-second__skill-box h3 {
     margin-bottom: 10px;
@@ -620,6 +628,7 @@ a:hover{
     width: 370px;
     border: solid 4px $beige;
     border-radius: 15px;
+    transition: all 0.2s;
 }
 .contact-first__info-body ul{
     width: 400px;
@@ -655,6 +664,7 @@ a:hover{
 }
 .info-body__item a:hover {
     background-color: $beige;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 
